@@ -28,7 +28,7 @@ This code will run faster than the usual branching with if-else or conditonal op
 For example, for example pesudo code as follows:
 At compile time, the compiler only takes 1 of these statements, but not both in the same function.
 
-`template<Side T> void strategy<T>::runStrategy();
+```template<Side T> void strategy<T>::runStrategy();
 
 template<> float Strategy<Side::Buy>::CalcPrice {
 return value - $;
@@ -36,15 +36,15 @@ return value - $;
 
 template<> float Strategy<Side::Sell>::CalcPrice {
 return value + $;
-}`
+}```
 
 As compared to
 
-`void strategy::runStrategy(input) {
+```void strategy::runStrategy(input) {
 if (input == buy) return value - $;
 else return value + $;
 
-}`
+}```
 
 
 Across all functions:
