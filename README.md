@@ -8,14 +8,14 @@
 
 
 ## Extra Question:
-** Explain what and where we can improve if we need a C++ version for high frequency trading **
+**Explain what and where we can improve if we need a C++ version for high frequency trading**
 
 
-How can we use C++ to improve high speed trading?
+### How can we use C++ to improve high speed trading?
 
 In High Frequency Trading, speed of execution is very important as it can determine the amount of profits raked in.  In HFT programs that are latency sensitive, C++ can be used to improve the algorithm because it is the most efficient at processing high volumes of data. 
 
-Function executions
+**Function executions**
 C++ can be fast and powerful. At compile time, if we know which function is to be excecuted, we can use lambda functions instead. 
 Memory allocation can be slow. So as compared to python, there are 3 changes we can make:
 Pick from a pool of pre-allocated objects because allocation is costly
@@ -51,11 +51,11 @@ else return value + $;
 }`
 
 
-Across all functions:
+**Across all functions:**
 Inplace functions can be used instead of std::functions
 It allocates inplace, if we declare function on stack, the buffer for the closure will be on the stack
 
 
-Multithreading
+**Multithreading**
 If multiple threads are used, shared data should be kept to a minimum, copies of data can be passed around. To minimise sharing, a single writer, single reader lock free queue can be used. They only share an atomic lock.
 In cases that allow for out-of-order information, can consider not to use synchronisation
