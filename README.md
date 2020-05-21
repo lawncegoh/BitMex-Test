@@ -1,10 +1,14 @@
 # BitMex-Test
 
+** To Run **
 `python main.py`
 
 - Uncomment the 3 lines in init to see order_book, position and balance respectively
 
-Explain what and where we can improve if we need a C++ version for high frequency trading
+
+
+## Extra Question:
+** Explain what and where we can improve if we need a C++ version for high frequency trading **
 
 
 How can we use C++ to improve high speed trading?
