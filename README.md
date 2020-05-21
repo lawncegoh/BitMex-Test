@@ -5,6 +5,8 @@
 
 - Uncomment the 3 lines in init to see order_book, position and balance respectively
 
+## Pictures to illustrate the MongoDB Compass GUI after pulling data
+
 
 
 ## Extra Question:
@@ -63,3 +65,4 @@ It allocates inplace, if we declare function on stack, the buffer for the closur
 **Multithreading**
 If multiple threads are used, shared data should be kept to a minimum, copies of data can be passed around. To minimise sharing, a single writer, single reader lock free queue can be used. They only share an atomic lock.
 In cases that allow for out-of-order information, can consider not to use synchronisation
+
