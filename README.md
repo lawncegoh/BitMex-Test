@@ -1,6 +1,6 @@
 # BitMex-Test
 
-**To Run**
+**To Run** + 
 `python main.py`
 
 - Uncomment the 3 lines in init to see order_book, position and balance respectively
@@ -40,7 +40,7 @@ return value - $;
 
 template<> float Strategy<Side::Sell>::CalcPrice {
 return value + $;
-}`
+}` 
 
 As compared to
 
