@@ -4,8 +4,7 @@
 `python main.py`
 
 - Uncomment the 3 lines in init to see order_book, position and balance respectively
-
-## Pictures to illustrate the MongoDB Compass GUI after pulling data
+- Pictures to illustrate the MongoDB Compass GUI after pulling data are in the repository named as Balance_GUI, OrderBook_GUI and Position_GUI
 
 
 
